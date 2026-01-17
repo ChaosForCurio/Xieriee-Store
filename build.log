@@ -1,0 +1,23 @@
+
+> client@0.1.0 build
+> next build
+
+▲ Next.js 16.1.2 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 11.8s
+  Running TypeScript ...
+Failed to compile.
+
+./app/layout.tsx:33:23
+Type error: Type '{ colors: { primary: string; }; }' has no properties in common with type 'ThemeConfig'.
+
+[0m [90m 31 |[39m       [33m<[39m[33mbody[39m className[33m=[39m{inter[33m.[39mclassName}[33m>[39m
+ [90m 32 |[39m         [33m<[39m[33mStackProvider[39m app[33m=[39m{stackServerApp}[33m>[39m
+[31m[1m>[22m[39m[90m 33 |[39m           [33m<[39m[33mStackTheme[39m theme[33m=[39m{customStackTheme}[33m>[39m
+ [90m    |[39m                       [31m[1m^[22m[39m
+ [90m 34 |[39m             [33m<[39m[33mSmoothScroll[39m[33m>[39m
+ [90m 35 |[39m               [33m<[39m[33mSuspense[39m fallback[33m=[39m{[33m<[39m[33mdiv[39m className[33m=[39m[32m"h-16 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800"[39m [33m/[39m[33m>[39m}[33m>[39m
+ [90m 36 |[39m                 [33m<[39m[33mNavbar[39m [33m/[39m[33m>[39m[0m
+Next.js build worker exited with code: 1 and signal: null
