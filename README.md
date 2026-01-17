@@ -1,5 +1,5 @@
 # xieriee-store
 
-<img src="/client/public/logo.png" alt="Logo" width="200" height="200
-
+<img src="/client/public/logo.png" alt="Logo" 
+/>
 
